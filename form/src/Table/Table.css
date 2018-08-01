@@ -1,0 +1,11 @@
+.dataContainer{
+    display: flex;
+    justify-content: left;
+    padding-top: 3%;
+    margin-left: 20%;
+}
+.dataItem{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 5px;
+}

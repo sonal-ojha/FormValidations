@@ -1,0 +1,30 @@
+.background{
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.formContainer{
+    background-color: black;
+    width: 20vw;
+    height: 32vh;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 40%;
+}
+
+input[type=text] , input[type=email], input[type=number] {
+    margin:8px;
+    width: 80%;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+
+.btn{
+    width: 65px;
+    height: 20px;
+    border-radius: 2px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
