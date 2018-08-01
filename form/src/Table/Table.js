@@ -17,7 +17,7 @@ class Table extends Component {
             );
         }))
         return (
-            <div>
+            <div className="TableContainer">
                 {TBody}
             </div>
         );

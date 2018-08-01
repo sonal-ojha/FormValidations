@@ -110,11 +110,23 @@ class Form extends Component {
             this.setState({
                 ...this.state.data, data: newArr
             })
+           
             toast.success("Details updated successfully", {
                 position: toast.POSITION.TOP_RIGHT
             });
+             // To clear the data in the fields after updating
+             var emptyObj={
+                name: '',
+                phone: '',
+                email: '',
+                address1: '',
+                address2: '',
+                pin: '',
+            }
+            this.setState({
+                ...this.state.info, info: emptyObj
+            })
             return;
-            // console.log("data", this.state.data);
         }
     }
     render() {
@@ -143,7 +155,7 @@ class Form extends Component {
                             </div>
                         </div>
                         <div>
-                            <button name="submit" onClick={this.handleSubmit} className="btn" > SUBMIT </button>
+                            <button name="submit" onClick={this.handleSubmit} className="btn"> SUBMIT </button>
                         </div>
                     </div>
 

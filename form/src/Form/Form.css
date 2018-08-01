@@ -5,11 +5,11 @@
 
 .formContainer{
     background-color: black;
-    width: 20vw;
-    height: 32vh;
+    width: 28vw;
+    height: 38vh;
     text-align: center;
     padding-top: 15px;
-    margin-left: 40%;
+    margin-left: 30%;
 }
 
 input[type=text] , input[type=email], input[type=number] {
@@ -20,11 +20,11 @@ input[type=text] , input[type=email], input[type=number] {
 }
 
 .btn{
-    width: 65px;
-    height: 20px;
+    width: 90px;
+    height: 25px;
     border-radius: 2px;
     background: black;
     color: white;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 15px;
 }
